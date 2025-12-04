@@ -3,26 +3,8 @@
 ## Overview
 This dataset contains product and review data scraped from Tokopedia, a major Indonesian e-commerce platform. The data is structured to support product analysis, review mining, and e-commerce research. The scraper is built with a modular, testable architecture using Python, Playwright, and modern software engineering practices.
 
-## Project Structure
-```
-ply_test/
-├── main.py                 # Orchestration layer with TokopediaScrapeJob class
-├── scraper.py              # Core module: data models, services, helpers
-├── rev.py                  # Standalone review fetcher
-├── test_scraper.py         # Unit tests for scraper module (17 tests)
-├── test_main.py            # Unit tests for main module (11 tests)
-├── ip.ipynb                # Jupyter notebook for data analysis & flattening
-├── product_data.json       # Products without reviews
-├── product_data_with_reviews2.json  # Products with reviews
-├── README.md               # This file
-└── pyvenv.cfg              # Virtual environment config
-```
-
-## Files
-- `product_data.json`: Product data without reviews (JSON format).
-- `product_data_with_reviews2.json`: Product data with embedded reviews (JSON format).
-- `products_with_review_fields.csv`: Product data with review fields as lists (CSV format).
-- `all_reviews_flat.csv`: (Optional) Flattened reviews, one row per review (CSV format).
+## Datasets
+Datasest available at kaggle https://www.kaggle.com/datasets/musabiam/tokopedia-product-and-review-dataset
 
 ## Columns
 ### Product Columns
