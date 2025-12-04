@@ -218,16 +218,9 @@ pandas>=2.0.0
 - Monitor logging output for rate limiting (429 responses) and adjust delays
 - Use separate `scrape_products()` and `fetch_and_attach_reviews()` calls for large datasets to enable resumable workflows
 
-## License
-
-This dataset and scraper are for research and educational purposes only. Please respect Tokopedia's terms of service and robots.txt.
-
-**Recommended License**: CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial)
-
 ## Acknowledgements
 
 - Built with [Playwright](https://playwright.dev/) for robust browser automation
 - [requests](https://requests.readthedocs.io/) + [urllib3](https://urllib3.readthedocs.io/) for reliable HTTP with exponential backoff
-- [Pandas](https://pandas.pydata.org/) for data analysis and transformation
 - Inspired by e-commerce data mining and NLP research
 
